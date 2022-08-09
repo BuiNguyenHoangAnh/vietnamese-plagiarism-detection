@@ -13,6 +13,7 @@ train_data = remove_punctuation_marks(train_data)
 train_data = remove_stop_words(train_data)
 train_data = remove_numbers(train_data)
 train_data = remove_spaces(train_data)
+print("train data:", train_data)
 
 test_data = read_txt_files(TESTDATA_PATH)
 test_data = word_segmentation(test_data)
@@ -22,7 +23,8 @@ test_data = remove_numbers(test_data)
 test_data = remove_spaces(test_data)
 
 # kiểm tra đạo văn sử dụng thuật toán n-gram
-detect_plagiarism_ngram(train_data, test_data, n)
+result, grams =diff_ngram(train_data, test_data, n)
+print("result: ", result, grams)
 
 # kiểm tra đạo văn sử dụng thuật toán lcs và cs
 
