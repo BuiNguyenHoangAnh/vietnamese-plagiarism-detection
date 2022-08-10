@@ -1,3 +1,4 @@
+# Nguồn: https://financial-engineering.medium.com/justforfunpython-n-gram-to-quantify-similarity-between-sentences-2d61e68a478c
 def ngram(document, n):
     doc = document.split()
     tmp = [] 
@@ -6,9 +7,9 @@ def ngram(document, n):
         tmp.append(doc[i : i+n]) 
     return tmp
 
-def diff_ngram(sent_a, sent_b, n):
-    a = ngram(sent_a, n)
-    b = ngram(sent_b, n) 
+def diff_ngram(source, input, n):
+    a = ngram(source, n)
+    b = ngram(input, n) 
     common = [] 
     cnt = 0 
     for i in a:
@@ -16,7 +17,7 @@ def diff_ngram(sent_a, sent_b, n):
             if i == j:
                 cnt += 1
                 common.append(i)
-    return cnt/len(a), common
+    return cnt/min(len(a), len(b)), common
 
 
 # # Nguồn: https://towardsdatascience.com/simple-plagiarism-detection-in-python-2314ac3aee88
