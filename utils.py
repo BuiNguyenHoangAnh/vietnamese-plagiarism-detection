@@ -1,5 +1,6 @@
 #import thư viện
 import re
+from docx import *
 from vws import RDRSegmenter, Tokenizer # https://github.com/Sudo-VP/Vietnamese-Word-Segmentation-Python
 
 # khia báo hằng
@@ -17,6 +18,12 @@ def read_txt_files(path):
     return document
 
 # đọc từ file word - TO DO
+def read_doc_files(path):
+    document = Document('pos1.docx')
+    text = []
+    for docpara in document.paragraphs:
+        text.append(docpara.text)
+    return text[0]
 
 ##############
 # TIỀN XỬ LÝ #

@@ -6,6 +6,7 @@ from plagiarism_detection_lcs_cs import *
 
 TRAINDATA_PATH = "pos1.txt"
 TESTDATA_PATH = "pos2.txt"
+read_doc_files("pos1.docx")
 n = 4 # set ngram number
 # plagiarism threshold
 threshold_ngram = 0.5
