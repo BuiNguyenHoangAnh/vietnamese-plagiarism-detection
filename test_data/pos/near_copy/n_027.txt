@@ -1,0 +1,1 @@
+Hiện tại  có một số giải pháp  phát hiện sao chép và một số công cụ phần mềm có thể được sử dụng để phát hiện liệu một tài liệu (được gọi là văn bản kiểm tra) đã được sao chép từ một tập hợp các tài liệu nguồn hay chưa. Các phương pháp này chủ yếu dựa vào tìm kiếm và đối sánh chuỗi, và chỉ  hiệu quả khi việc sao chép được thực hiện "bằng lời nói".

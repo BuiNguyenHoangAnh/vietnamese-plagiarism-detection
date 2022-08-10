@@ -1,0 +1,1 @@
+Quy trình xác thực dữ liệu thủ công này  kiểm tra từng phần dữ liệu được liên kết với một mục, sửa mọi thông tin sai sót hoặc trùng lặp xuất hiện và xóa các mục không đáp ứng tiêu chí. của Simas.

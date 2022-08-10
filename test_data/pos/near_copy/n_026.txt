@@ -1,0 +1,1 @@
+Tận dụng đặc điểm của tiếng Việt là một ngôn ngữ đa âm, bài viết này trình bày phương pháp trích  từ khóa từ tài liệu tiếng Việt và sử dụng phương pháp này để trích xuất tài liệu  làm tiền đề cho việc giải quyết vấn đề phát hiện đạo văn đã giới thiệu thành công trong việc tra cứu.

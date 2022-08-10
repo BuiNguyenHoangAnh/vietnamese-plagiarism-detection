@@ -1,0 +1,1 @@
+Một giải pháp được sử dụng là áp dụng  thuật toán phân loại cho chatbot để giảm  phân loại câu hỏi quá mức. Các câu hỏi  được phân loại theo các tiêu chí khác nhau để tạo ra một cấu trúc dễ quản lý hơn và tăng độ chính xác của câu trả lời mà chatbot cung cấp cho người dùng.

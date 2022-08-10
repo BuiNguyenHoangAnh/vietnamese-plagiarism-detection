@@ -1,0 +1,1 @@
+Với sự phát triển của Internet, thông tin được tạo ra liên tục hàng ngày, và lượng dữ liệu trên web là vô cùng lớn nên thường xuyên xảy ra vấn đề trùng lặp thông tin. Giải pháp cho vấn đề này  là tự động tóm tắt văn bản. Tóm tắt  giúp người dùng tiết kiệm thời gian đọc, cải thiện tìm kiếm và tăng hiệu quả lập chỉ mục của công cụ tìm kiếm.

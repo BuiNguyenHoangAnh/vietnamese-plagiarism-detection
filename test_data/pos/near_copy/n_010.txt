@@ -1,0 +1,1 @@
+Kỹ thuật làm sáng: Quá trình làm sáng hoặc làm sáng dữ liệu hình ảnh  cho phép mô hình có khả năng dự đoán tốt trong nhiều điều kiện ánh sáng  trong thế giới thực. Tuy nhiên, để tránh giảm ảnh quá tối hoặc quá sáng và khiến mô hình  học  dữ liệu xấu, việc tăng giảm độ sáng cũng cần được ghi lại ở các giá trị hợp lý.

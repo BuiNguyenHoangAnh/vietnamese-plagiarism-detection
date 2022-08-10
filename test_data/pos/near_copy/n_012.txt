@@ -1,0 +1,1 @@
+Tại Việt Nam, việc ứng dụng  công nghệ nhận dạng khuôn mặt vào thực tế vẫn còn nhiều hạn chế. Mục tiêu của công việc này là tìm hiểu một số phương pháp nhận dạng khuôn mặt và áp dụng chúng vào thực tế để điều chỉnh chúng cho phù hợp với thực tế của đất nước.
