@@ -1,4 +1,5 @@
 # import thư viện
+from plagiarism_detection_fuzzy import diff_fuzzy
 from utils import *
 from plagiarism_detection_ngram import *
 from plagiarism_detection_lcs_cs import *
@@ -35,5 +36,7 @@ result_lcs_cs = diff_lcs_cs(train_data, test_data)
 print("plagiarism detection result using lcs & cs: ", result_lcs_cs)
 
 # kiểm tra đạo văn sử dụng thuật toán fuzzy-based
+result_fuzzy = diff_fuzzy(train_data, test_data)
+print("plagiarism detection result using fuzzy: ", result_fuzzy)
 
 # đưa ra kết quả
