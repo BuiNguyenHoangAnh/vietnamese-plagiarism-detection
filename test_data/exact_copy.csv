@@ -1,0 +1,128 @@
+﻿no.,document,source,note
+e_001,"Cạnh tranh giữa các doanh nghiệp ngày càng tăng. Theo Sharma, Agarwal, Dhir, và Sikka (2016), để chinh phục khách hàng thì không thể không tìm hiểu về nhu cầu của họ. Một trong bước để biết khách hàng có phù hợp là thu hút khách hàng trải nghiệm sản phẩm. Sau đó đánh giá sự thỏa mãn của khách hàng với sản phẩm hay dịch vụ. Tuy nhiên, vấn đề làm sao doanh nghiệp có thể biết được khách hàng đang hài lòng và không hài lòng về vấn đề này hay thương hiệu đang được người dùng sử dụng nhiều. Để giải quyết bài toán này nghiên cứu đề xuất giải pháp khai thác các bình luận của khách hàng về sản phẩm của các cửa hàng để lại trên trang web Foody. Tuy nhiên dữ liệu chỉ ở mức độ sơ cấp, và lượng dữ liệu rất lớn các doanh nghiệp không thể dựa vào dữ liệu thô này để ra quyết định được, họ cần biết được các tri thức được phân tích từ tập dữ liệu này. Do đó, chúng tôi đã áp dụng các phương pháp học máy để phân loại dữ liệu, xem bình luận nào là tích cực, bình luận nào là tiêu cực và dùng các phương pháp phân tích và dự đoán. Cuối cùng, nghiên cứu khai thác công cụ để trực quan hóa dữ liệu trên các báo cáo thông minh (dashboards). Kết quả nghiên cứu sẽ giúp các cửa hàng, nhà quản lý doanh nghiệp nắm bắt thông tin một các dễ dàng và nhanh chóng, từ đó việc phát triển kinh doanh được cải thiện và nâng cao, chẳng hạn việc nâng cao sự hài lòng của khách hàng và giữ chân khách hàng tốt hơn.","Bằng, Nguyễn Đặng Lập, Nguyễn Văn Hồ, and Hồ Trung Thành. ""Mô hình khai phá ý kiến và phân tích cảm xúc khách hàng trực tuyến trong ngành thực phẩm."" TẠP CHÍ KHOA HỌC ĐẠI HỌC MỞ THÀNH PHỐ HỒ CHÍ MINH-KINH TẾ VÀ QUẢN TRỊ KINH DOANH 16.1 (2021): 64-78.",
+e_002,"Trong hai thập kỷ qua, các phương pháp dựa vào học máy đã thống trị trong hầu hết các bài toán phân tích cảm xúc, đặc biệt là bài toán mức văn bản bởi việc biểu diễn các đặc trưng có tác độ lớn đến hiệu năng của giải thuật học máy [9]. Các nghiên cứu đã tập trung vào việc tạo ra tập đặc trưng hiệu quả dựa vào hiểu biết về miền và các kỹ thuật chuyên biệt điển hình như các công trình [10], [11]. Trong đó các tác giả sử dụng ba phương pháp học máy truyền thống là Support Vector Machine (SVM), Naïve Bayes (NB), Maximum Entropy (ME) học trên tập dữ liệu với đặc trưng n-gram cho kết quả thực nghiệm tương đối cao ngay cả với phân lớp nhị phân hay phân lớp nhiều cấp
+độ.
+Tuy nhiên, công việc này hiện có thể được thực hiện tốt bởi các giải thuật học biểu diễn (representation learning) hay còn gọi là học đặc trưng (feature learning) như các hướng tiếp cận theo học sâu, kỹ thuật tự động phân biệt và giải thích các biểu diễn văn bản từ dữ liệu. Học sâu đã nổi lên do khả năng tạo ra các biểu diễn dữ liệu ở nhiều cấp độ. Trong đó phải kể đến công trình của D. Nguyen và cộng sự [12] khi tận dụng các văn bản tiếng Anh được dịch làm dữ liệu huấn luyện, các văn bản tiếng Việt được dịch bằng máy sang các văn bản tiếng Anh rồi được rút trích đặc trưng. Công trình sử dụng mạng CNN (Convolutional Neural Network) để phân lớp văn bản. Kết quả thực nghiệm đạt 84.40% trong tổng số 25.991 nhận xét sản phẩm tiếng Việt. Trong [13], tác giả Q. Vo và cộng sự sử dụng kết hợp hai mạng LSTM (Long Short-Term Memory) và CNN để phân lớp 17.500 nhận xét tiếng Việt theo ba mức khen, chê và trung tính khi nhận thấy rằng CNN hoạt động tốt trong việc bắt
+được các mối quan hệ lân cận nhau trong văn bản và LSTM với cơ chế nhớ-quên có thể xử lý được các mối phụ thuộc ở khoảng cách xa trong văn bản.","Trần, Khải Thiện, and Phùng Mai Sương Tiếu. ""Một số khái niệm và hướng tiếp cận phân tích cảm xúc-Áp dụng cho tiếng Việt."" Tạp chí Khoa học HUFLIT 6.1 (2020): 82-82.",
+e_003,"Xử lý ngôn ngữ tự nhiên (natural language processing - NLP) là một nhánh của trí tuệ nhân tạo tập trung vào các ứng dụng trên ngôn ngữ của con người. Trong trí tuệ nhân tạo thì xử lý ngôn ngữ tự nhiên là một trong những phần khó nhất vì nó liên quan đến việc phải hiểu ý nghĩa ngôn ngữ - công cụ hoàn hảo nhất của tư duy và giao tiếp.
+Xử lý ngôn ngữ chính là xử lý thông tin khi đầu vào là “dữ liệu ngôn ngữ” (dữ liệu cần biến đổi), tức dữ liệu “văn bản” hay “tiếng nói”. Các dữ liệu liên quan đến ngôn ngữ viết (văn bản) và nói (tiếng nói) đang dần trở nên kiểu dữ liệu chính con
+người có và lưu trữ dưới dạng điện tử. Đặc điểm chính của các kiểu dữ liệu này là không có cấu trúc hoặc nửa cấu trúc và chúng không thể lưu trữ trong các khuôn dạng cố định như các bảng biểu.
+Xử lý ngôn ngữ tự nhiên là một lĩnh vực nghiên cứu nhằm giúp cho các hệ thống máy tính hiểu và xử lý được ngôn ngữ con người. Dịch máy là một trong những ứng dụng chính của xử lý ngôn ngữ tự nhiên.","Nguyễn, Việt Dũng. Xử lý ngôn ngữ tự nhiên. Diss. Đại học Dân lập Hải Phòng, 2010.",
+e_004,"Trong học máy, máy tính không thể hiểu trực tiếp ngôn ngữ tự nhiên mà chỉ hiểu được ngôn ngữ khi chúng được biểu diễn dưới dạng không gian vector. Các chiều thuộc tính đầu vào sẽ được biểu diễn dưới dạng ma trận vector, có nhiều phương pháp để biểu diễn văn bản sang dạng ma trận vector chẳng hạn: cách truyền thống như mô hình Bag of N-grams, mô hình TF-IDF, mô hình chủ đề hay các cách cải tiến như các mô hình Word2Vec, GloVe, FastTex (Sarkar, 2019). Trong nghiên cứu này, chúng tôi áp dụng hai phương pháp là Bag of N-grams và TF-IDF để thử nghiệm mô hình và biểu diễn dữ liệu.","Bằng, Nguyễn Đặng Lập, Nguyễn Văn Hồ, and Hồ Trung Thành. ""Mô hình khai phá ý kiến và phân tích cảm xúc khách hàng trực tuyến trong ngành thực phẩm."" TẠP CHÍ KHOA HỌC ĐẠI HỌC MỞ THÀNH PHỐ HỒ CHÍ MINH-KINH TẾ VÀ QUẢN TRỊ KINH DOANH 16.1 (2021): 64-",
+e_005,"Theo đánh giá của công ty Oracle, hiện có đến 80% dữ liệu không cấu trúc trong lượng dữ liệu của loài người đang có [Oracle Text]. Với sự ra đời và phổ biến của Internet, của sách báo điện tử, của máy tính cá nhân, của viễn thông, của thiết bị âm thanh,… người người ai cũng có thể tạo ra dữ liệu văn bản hay tiếng nói. Vấn đề là làm sao ta có thể xử lý chúng, tức chuyển chúng từ các dạng ta chưa hiểu được thành các dạng ta có thể hiểu và giải thích được, tức là ta có thể tìm ra thông tin, tri thức hữu ích cho mình","Nguyễn, Văn Thành. Tìm hiểu về xử lý ngôn ngữ tự nhiên và máy dịch. Viết chương trình mô phỏng từ điển Việt-Anh. Diss. Đại học Dân lập Hải Phòng, 2010.",
+e_006,"1. Nhận dạng tiếng nói (speech recognition): Từ sóng tiếng nói, nhận biết và chuyển chúng thành dữ liệu văn bản tương ứng. Giúp thao tác của con người trên các thiết bị nhanh hơn và đơn giản hơn, chẳng hạn thay vì gõ một tài liệu nào đó bạn đọc nó lên và trình soạn thảo sẽ tự ghi nó ra. Đây cũng là bước đầu tiên cần phải thực hiện trong ước mơ thực hiện giao tiếp giữa con người với robot. Nhận dạng tiếng nói có khả năng trợ giúp người khiếm thị rất nhiều.
+2. Tổng hợp tiếng nói (speech synthesis): Từ dữ liệu văn bản, phân tích và chuyển thành tiếng người nói. Thay vì phải tự đọc một cuốn sách hay nội dung một trang web, nó tự động đọc cho chúng ta. Giống như nhận dạng tiếng nói, Tổng hợp tiếng nói là sự trợ giúp tốt cho người khiếm thị, nhưng ngược lại nó là bước cuối cùng trong giao tiếp giữa người với robot. 
+3. Nhận dạng chữ viết (optical character recognition, OCR): Từ một văn bản in trên giấy, nhận biết từng chữ cái và chuyển chúng thành một tệp văn bản trên máy tính. có hai kiểu nhận dạng: Thứ nhất là nhận dạng chữ in như nhận dạng chữ trên sách giáo khoa rồi chuyển nó thành dạng văn bản điện tử như dưới định dạng doc của Microsoft Word chẳng hạn. Phức tạp hơn là nhận dạng chữ viết tay, có khó khăn bởi vì chữ viết tay không có khuôn dạng rõ ràng thay đổi từ người này sang người khác.Với chương trình nhận dạng chữ viết in có thể chuyển hàng ngàn đầu sách trong thư viện thành văn bản điện tử trong thời gian ngắn. Nhận dạng chữ viết của con người có ứng dụng trong khoa học hình sự và bảo mật thông tin (nhận dạng chữ ký điện tử).
+4. Dịch tự động (machine translation): Từ một tệp dữ liệu văn bản trong một ngôn ngữ (tiếng Anh chẳng hạn), máy tính dịch và chuyển thành một tệp văn bản trong một ngôn ngữ khác. Một phần mềm điển hình về tiếng Việt của chương trình này là Evtrans của Softex, dịch tự động từ tiếng Anh sang tiếng Việt và ngược lại, phần mềm từng được trang web vdict.com mua bản quyền, đây cũng là trang đầu tiên đưa ứng dụng này lên mạng. Có hai công ty tham gia vào lĩnh vực này cho ngôn ngữ tiếng Việt là công ty Lạc Việt (công ty phát hành từ điển Lạc Việt) và Google.
+5. Tóm tắt văn bản (text summarization): Từ một văn bản dài (mười trang chẳng hạn) máy tóm tắt thành một văn bản ngắn hơn (một trang) với những nội dung cơ bản.
+6. Tìm kiếm thông tin (information retrieval): Từ một nguồn rất nhiều tệp văn bản hay tiếng nói, tìm ra những tệp có nội dung liên quan đến một vấn đề (câu hỏi) ta cần biết (hay trả lời). Điển hình của công nghệ này là Google, một hệ tìm kiếm thông tin trên Web, mà hầu như chúng ta đều dùng thường xuyên. Cần nói thêm rằng mặc dù hữu hiệu hàng đầu như vậy, Google mới có khả năng cho chúng ta tìm kiếm câu hỏi dưới dạng các từ khóa (keywords) và luôn “tìm” cho chúng ta rất nhiều tài liệu không liên quan, cũng như rất nhiều tài liệu liên quan đã tồn tại thì Google lại tìm không ra.
+7. Trích chọn thông tin (information extraction): Từ một nguồn rất nhiều tệp văn bản hay tiếng nói, tìm ra những đoạn bên trong một số tệp liên quan đến một vấn đề (câu hỏi) ta cần biết hay trả lời. Một hệ trích chọn thông tin có thể “lần” vào từng trang Web liên quan, phân tích bên trong và trích ra các thông tin cần thiết, nói gọn trong tiếng Anh để phân biệt với tìm kiếm thông tin là “find things but not pages”.
+8. Phát hiện tri thức và khai phá dữ liệu văn bản (knowledge discovery and text data mining): Từ những nguồn rất nhiều văn bản thậm chí hầu như không có quan hệ với nhau, tìm ra được những tri thức trước đấy chưa ai biết. Đây là một vấn đề rất phức tạp và đang ở giai đoạn đầu của các nghiên cứu trên thế giới.
+Có thể phân loại các bài toán
+- 1-3 thuộc lĩnh vực xử lý tiếng nói và xử lý ảnh (speech and image processing),
+- 4-5 thuộc lĩnh vực xử lý văn bản (text processing),
+- 6-8 thuộc lĩnh vực khai phá văn bản và Web (text and Web mining).","Nguyễn, Văn Thành. Tìm hiểu về xử lý ngôn ngữ tự nhiên và máy dịch. Viết chương trình mô phỏng từ điển Việt-Anh. Diss. Đại học Dân lập Hải Phòng, 2010.",
+e_007,"Các hư từ cổ.
+Đây là loại bao gồm những hư từ đã vắng bóng trong đời sống hoạt động của tiếng Việt hiện đại. Nói rõ hơn, đó là những hư từ không còn được sử dụng trong giao tiếp thường nhật một cách bình thường nữa. Danh sách những hư từ này bao gồm: Bui (18 lần), mựa (35), nhẫn (32), sá (23), phô (3), tua (11), thửa (18), ru (1), vay (9), hoà (43), chỉn (20), chưng (45), lọ (26), luống (14), mấy (103), khôn (53), chăng (80), le (1), huống (10), ngõ (6), há (22), hề (7), đòi (19), tá (7), khá (21). ","Nghiệu, Vũ Đức. ""Hư từ tiếng Việt thế kỉ XV trong Quốc âm thi tập và Hồng Đức quốc âm thi tập."" Ngôn ngữ, số 12 (2006): 1-14.",
+e_008,"Với bài viết này, chúng tôi chỉ hi vọng một mặt có thể góp thêm một tiếng nói nhỏ vào việc nghiên cứu một vấn đề lớn là hư từ, và mặt khác chúng tôi cũng hy vọng những kiến giải trong bài có thể ít nhiều có ích đối với việc dạy tiếng Việt cho người nước ngoài, một công việc mà các bậc thầy đi trước đã tiến hành và chúng ta và các thế hệ tương lai đang tiếp tục. ","Nguyễn, Văn Chính. ""Tìm Hiểu về Hư Từ Cứ trong Tiếng Việt Hiện Đại."" Electronic Journal of Foreign Language Teaching 2.1 (2005): 73-81.",
+e_009,"• Giới từ: Là lớp hư từ dùng để biểu hiện các quan hệ không gian, thời gian, nguyên nhân, mục đích và các mối quan hệ khác giữa khách thể với các hoạt động, trạng thái hoặc phẩm chất. Trong cú pháp giới từ được dùng để chỉ các quan hệ cú pháp giữa các cách của danh từ, tính từ, tính từ có nguồn gốc từ danh từ và số từ, quan hệ giữa động từ với danh từ, đại từ, tính từ. Ý nghĩa tự thân của giới từ không thể được thể hiện bên ngoài mối quan hệ với một hình dạng cụ thể nào đó của sự vật. ","Nguyễn, Quý Mão. ""Thực từ và hư từ trong ngôn ngữ Nga-Việt."" (2006).",
+e_010,"Kỹ thuật tăng giảm độ sáng: Quá trình tăng giảm độ sáng của dữ liệu ảnh sẽ cho phép mô hình có khả năng dự đoán tốt với những điều kiện ánh sáng khác nhau trong thực tế. Tuy nhiên việc tăng giảm độ sáng cũng cần phải lưu ý với những giá trị hợp lý, tránh giảm ảnh quá tối hoặc quá sáng khiến mô hình phải học những dữ liệu không tốt.","Anh, Phạm Việt, and Vương Trung Hiếu. ""ỨNG DỤNG MÔ HÌNH FACENET TRONG VIỆC XÂY DỰNG VÀ PHÁT TRIỂN HỆ THỐNG NHẬN DIỆN KHUÔN MẶT TẠI TRƯỜNG ĐẠI HỌC CÔNG NGHIỆP HÀ NỘI."" (2021).",
+e_011,Mục tiêu chính của Siamese là việc tìm ra cách ánh xạ một ảnh về một không gian vector n chiều cho nên cũng không nhất thiết phải lựa chọn hàm mất mát là binary cross entropy [18] như các bài toán phân loại nhị phân khác. Mô hình Facenet là một dạng Siemese với tác dụng là biểu diễn một ảnh về một không gian vector n chiều sao cho khoảng cách giữa các vector embedding càng nhỏ thì mức độ thuộc cùng một lớp của các ảnh tương ứng càng lớn.,"Anh, Phạm Việt, and Vương Trung Hiếu. ""ỨNG DỤNG MÔ HÌNH FACENET TRONG VIỆC XÂY DỰNG VÀ PHÁT TRIỂN HỆ THỐNG NHẬN DIỆN KHUÔN MẶT TẠI TRƯỜNG ĐẠI HỌC CÔNG NGHIỆP HÀ NỘI."" (2021).",
+e_012,ở VN chúng ta việc ứng dụng của công nghệ nhận dạng khuôn mặt vào thực tế còn hạn chế. Mục tiêu của luận văn này là tìm hiểu một số phương pháp nhận diện khuôn mặt và ứng dụng vào thực tế cho phù hợp với thực tế nước nhà.,"TOÀN, ĐÀO QUANG. ""ĐỀ TÀI NHẬN DẠNG KHUÔN MẶT TRONG HỖ TRỢ CÔNG TÁC QUẢN LÝ TIẾP DÂN.""",
+e_013,"Các đối tượng trực quan trong EGM được biểu diễn như là một đồ thị có nhãn, nơi các nút đại diện cho đặc điểm riêng biệt dựa trên Gabor wavelet và các cạnh đại diện cho khoảng cách giữa các địa điểm nút trên một hình ảnh. Vì vậy, một hình ảnh của một đối tượng được biểu diễn như là một tập hợp đặc điểm riêng trong một tổ chức không gian nhất định. Nếu một đối tượng mới trong một hình ảnh được nhận dạng, các đồ thị được dán nhãn của các đối tượng được lưu trữ (vì vậy được gọi là đồ thị mô hình) và được so khớp trên hình ảnh. Đối với mỗi đồ thị mô hình, các vị trí của các nút trong các hình ảnh
+được tối ưu hóa. Nhờ vậy mà đặc điểm riêng biệt của hình ảnh phù hợp với giữa các nút của mô hình. Đồ thị mô hình phù hợp nhất với đối tượng được nhận dạng và với các vị trí nút của nó trong hình ảnh, một đồ thị hình ảnh có thể được tạo ra.
+Elastic Bunch Graph Matching (EBGM) là một mở rộng của EGM phù hợp cho các lớp đối tượng có một cấu trúc phổ chung, chẳng hạn như những khuôn mặt trong tư thế giống hệt nhau. Tất cả các trường hợp có thể của một lớp được biểu diễn bởi cùng một loại đồ thị. Từ các đồ thị, một bó các đồ thị có cùng một cấu trúc được tạo ra với các nút đại diện cho kết cấu địa phương của bất kỳ đối tượng trong các lớp học (ví dụ: tất cả các biến thể của một con mắt bên trái) và các cạnh đại diện cho khoảng cách trung bình giữa các địa điểm nút (ví dụ: khoảng cách trung bình giữa hai mắt). Điều này cho phép tận
+dụng lợi thế của các tổ hợp của các đặc điểm riêng biệt đại diện cho các trường hợp của các lớp đối tượng không nhìn thấy trước. Ví dụ, các kết cấu của mắt có thể được lấy từ
+một khuôn mặt và kết cấu của miệng từ mặt khác đại diện cho một khuôn mặt mới mà chia sẻ các tính năng với hai gương mặt được lưu trữ. Như vậy, một biểu đồ bó là một khái niệm trừu tượng đại diện cho lớp đối tượng chứ không phải là đối tượng cá nhân.","TOÀN, ĐÀO QUANG. ""ĐỀ TÀI NHẬN DẠNG KHUÔN MẶT TRONG HỖ TRỢ CÔNG TÁC QUẢN LÝ TIẾP DÂN.""",
+e_014,"Với chính sách mở rộng này, chỉ số chứng khoán VN tăng ngay với mức tích lũy là 0,003% ở kỳ đầu tiên. Kết quả thu được ở đây phù hợp với thực tế VN, mở rộng CSTT làm khối lượng tiền tăng lên, thể hiện nền kinh tế đang trong giai đoạn tăng trưởng nên nhà đầu tư có khả năng tiếp cận nguồn vốn tín dụng rẻ, có thêm cơ hội để mở rộng kinh doanh. Do đó, cổ phiếu các doanh nghiệp sẽ trở nên thu hút hơn với các nhà đầu tư, vì vậy góp phần đẩy giá cổ phiếu tăng lên, kéo theo sự tăng lên trong
+CSGCK. Tuy nhiên, hình hypebol của đồ thị đi lên sau đó có xu hướng đi xuống cho thấy nhà đầu tư có thể nghĩ rằng giá chứng khoán không thể tăng liên tục trong nhiều kỳ, do nếu khối lượng tiền tăng quá lớn khả năng cao sẽ xảy ra lạm phát làm mất giá đồng tiền. Sau một thời gian, thị trường sẽ điều chỉnh nên đồ thị dốc xuống. ","Phương, Dương Ngọc Mai, et al. ""Tác động của chính sách tiền tệ đến thị trường chứng khoán: Bằng chứng tại Việt Nam."" Tạp chí Phát triển và Hội nhập, Số 25.35 (2015): 3-13.",
+e_015,"các nghiên cứu này chủ yếu tập trung vào việc đo lường ảnh hưởng của các nhân tố vĩ mô đến giá của cổ phiếu mà chưa nghiên cứu ảnh hưởng của các yếu tố cơ bản của công ty. Hơn nữa, theo quan sát của tác giả giá vàng là nhân tố có thể ảnh hưởng đến giá của các cổ phiếu bởi vì ở Việt Nam thị trường vàng có mối quan hệ rất chặt chẽ với thị trường chứng khoán. Tuy nhiên, biến số này lại không được sử dụng trong các nghiên cứu trước đây ở Việt Nam.","Lộc, Trương Đông. ""Các nhân tố ảnh hưởng đến sự thay đổi giá của cổ phiếu: Các bằng chứng từ Sở Giao dịch Chứng khoán Thành Phố Hồ Chí Minh."" Tạp chí Khoa học Trường Đại học Cần Thơ 33 (2014): 72-78.",
+e_016,"Trong khí quyển thường xuyên xảy ra những quá trình vật lí, những quá trình này không ngừng làm biến đổi trạng thái của nó. Trạng thái của khí quyển ở gần mặt đất và ở những tầng thấp hơn (thường là trong môi trường hoạt động của hàng không) gọi là thời tiết. Những đặc trưng của thời tiết như: nhiệt độ không khí, khí áp, độ ẩm, lượng mây, giáng thuỷ, gió và các
+hiện tượng dông, bão, sương mù, gió tây khô nóng được gọi là những yếu tố khí tượng.
+Những sự biến đổi của thời tiết ở gần mặt đất có ý nghĩa lớn đối với nông nghiệp và các lĩnh vực kinh tế khác của con người. Thời tiết ở những tầng khí quyển cao hơn ảnh hưởng đến hoạt động của hàng không. Cần lưu ý là những quá trình khí quyển ở các độ cao khác nhau có liên quan với nhau. Vì vậy, để nghiên cứu thời tiết gần mặt đất một cách toàn diện ta cần nghiên cứu cả các tầng khí quyển ở cao hơn. Trạng thái khí quyển ở tầng cao hơn là đối tượng của cao không học. ","Minh, Trần Công. ""Khí hậu và khí tượng đại cương."" Nxb. ĐHQG Hà Nội 247 (2007).",
+e_017,"Sự tồn tại của khí quyển còn là nhân tố quan trọng đối với những quá trình vật lí xảy ra trên mặt đất (trong thổ nhưỡng) và các lớp trên cùng của vùng chứa nước (chẳng hạn như hiện tượng xói mòn do gió, các dòng biển và sóng biển do gió, sự hình thành và tan đi của lớp tuyết phủ và nhiều hiện tượng khác) cũng như đối với cuộc sống trên Trái Đất. ","Minh, Trần Công. ""Khí hậu và khí tượng đại cương."" Nxb. ĐHQG Hà Nội 247 (2007).",
+e_018,"Những sự biến đổi cơ bản của thời tiết có liên quan với sự di chuyển của không khí trong hoàn lưu chung khí quyển, vì các khối khí di chuyển từ khu vực này sang khu vực khác mang theo những điều kiện mới của nhiệt độ, độ ẩm, lượng mây và các yếu tố khác.","Minh, Trần Công. ""Khí hậu và khí tượng đại cương."" Nxb. ĐHQG Hà Nội 247 (2007).",
+e_019,"vùng núi thấp của Tây Bắc Bộ và được che chắn ảnh hưởng
+của gió mùa đông bắc bởi dãy Hoàng Liên Sơn nên vùng khí hậu B1 ấm hơn vùng đồng bằng Bắc Bộ ở phía nam, mùa mưa ở đây sớm hơn các vùng, ít chịu ảnh hưởng của bão, mùa hè nóng nhiều. ","Minh, Trần Công. ""Khí hậu và khí tượng đại cương."" Nxb. ĐHQG Hà Nội 247 (2007).",
+e_020,"Quá trình duyệt dữ liệu thủ công này sẽ kiểm tra từng đơn vị dữ liệu liên quan đến bài báo, và tiến hành chỉnh sửa ngay khi xuất hiện các thông tin sai, trùng lặp, hoặc loại bỏ nếu bài không phù hợp với tiêu chí của Scimath.","Chau, Ngo Bao, et al. ""Dự án Phát triển bộ cơ sở dữ liệu khoa học ngành toán của Việt Nam: Một số kết quả sơ bộ ban đầu từ CSDL SciMath."" (2020).",
+e_021,"Chatbot ngày nay đang sử dụng các kỹ thuật xử lý ngôn ngữ tự nhiên (NLP) tiên tiến, các kỹ thuật học sâu như Deep Reinforcement Learning (DRL) và Deep Neural Network (DNN) [3]. Cộng đồng xử lý ngôn ngữ tự nhiên (NLP) đã đạt được nhiều bước tiến trong việc nhúng phụ thuộc vào ngữ cảnh và các mô hình ngôn ngữ hai chiều như BERT, RoBERTa, DistilBERT [4-8]. Đặc biệt, mô hình BERT (Devlin và cộng sự, 2019) đã trở thành cơ sở mới của xử lý ngôn ngữ tự nhiên bao gồm phân loại câu, câu hỏi an-swering,…","Tuyên, Vi Mạnh, et al. ""XÂY DỰNG GIẢI PHÁP CHATBOT HỖ TRỢ CHĂM SÓC SỨC KHỎE TRÊN MIỀN TIẾNG VIỆT.""",
+e_022,"Một giải pháp được sử dụng là áp dụng các thuật toán phân lớp vào chatbot để giảm việc phân loại quá nhiều các câu hỏi. Các câu hỏi sẽ được phân lớp theo các điều kiện khác nhau và tạo ra một cấu trúc dễ quản lý hơn, tăng độ chính xác cho các phản hồi được chatbot tới cho người dùng.","Nông, Văn Tùng. Nghiên cứu xây dựng Chatbot hỗ trợ tư vấn du lịch Quảng Bình. Diss. Trường Đại học Bách khoa-Đại học Đà Nẵng, 2019.",
+e_023,"Trong giới sinh viên ngày nay, việc đạo văn đã trở thành hiện tượng đáng báo động, từ sinh viên năm thứ nhất đến sinh viên năm cuối thì việc copy bài lẫn nhau hay “xin” bài trên mạng về không trích nguồn để nộp cho giảng viên. Đối với họ nộp xong bài là “thoát nạn” nhưng hậu quả để lại không ai lường trước được.","An, Minh. ""Đạo văn trở trăn nỗi niềm."" (2011).",
+e_024,"Đạo văn là hình thức sao chép, cắt dán, gõ lại, viết lại, sử dụng lại ý tưởng, kết quả mà không có trích dẫn đến tác giả hoặc nguồn thông tin. Đạo văn thường xuất hiện dưới hai hình thức: sao chép nguyên văn và sao chép ý tưởng. Để thực hiện việc đạo văn, người sao chép thực hiện thu thập các đoạn văn bản từ nhiều nguồn khác nhau để tạo nên văn bản của mình.","Lê Thanh Hương, Nguyễn Chí Thành. ""PHƯƠNG PHÁP TRÍCH RÚT TỪ KHÓA TÌM TẬP ỨNG CỬ TRONG BÀO TOÁN PHÁT HIỆN ĐẠO VĂN.""",
+e_025,"Tiền xử lý là bước quan trọng đối với các hệ thống tìm kiếm. Tệp tin đầu vào có dạng .pdf, .doc hoặc .docx, đọc nội dung và loại bỏ các ký tự đặc biệt (như các ký tự điều khiển, ký tự xuống dòng) và thực hiện tách câu, tách từ và gán nhãn từ loại.","Lê Thanh Hương, Nguyễn Chí Thành. ""PHƯƠNG PHÁP TRÍCH RÚT TỪ KHÓA TÌM TẬP ỨNG CỬ TRONG BÀO TOÁN PHÁT HIỆN ĐẠO VĂN.""",
+e_026,"Với đặc thù của Tiếng Việt là ngôn ngữ đa âm tiết, trong bài báo này chúng tôi đã giới thiệu phương pháp trích rút từ khóa từ văn bản Tiếng Việt và sự thành công khi áp dụng phương pháp này trong việc tìm kiếm tập tài liệu ứng cử làm tiền đề để giải quyết bài toán phát hiện đạo văn.","Lê Thanh Hương, Nguyễn Chí Thành. ""PHƯƠNG PHÁP TRÍCH RÚT TỪ KHÓA TÌM TẬP ỨNG CỬ TRONG BÀO TOÁN PHÁT HIỆN ĐẠO VĂN.""",
+e_027,"Hiện tại đã có một số giải pháp cho việc phát hiện sao chép và một vài công cụ phần mềm cho phép phát hiện một tài liệu (gọi là văn bản kiểm tra) có sao chép từ một tập hợp các tài liệu nguồn hay không. Các phương pháp này chủ yếu dựa trên tìm kiếm và so khớp chuỗi, chỉ thực sự có hiệu quả nếu việc sao chép là “nguyên văn”.","Vân, Phạm Thị Hải, and Phạm Hữu Lợi. ""Nghiên cứu phương pháp so sánh độ tương đồng văn bản bằng độ đo cosine."" Bản B của Tạp chí Khoa học và Công nghệ Việt Nam 59.1 (2017).",
+e_028,"Do sự phát triển của Internet, thông tin được sinh ra liên tục mỗi ngày, khối lượng dữ liệu trên Web rất lớn, do đó vấn đề trùng lặp thông tin thường xuyên xảy ra. Giải pháp cho vấn đề này đó là tóm tắt văn bản tự động. Việc tóm tắt sẽ giúp người dùng tiết kiệm thời gian đọc, cải thiện tìm kiếm cũng như tăng hiệu quả indexing cho search engine. ","QUY, HỆ CHÍNH. ""ĐỘ TƯƠNG ĐỒNG NGỮ NGHĨA GIỮA HAI CÂU VÀ ỨNG DỤNG TRONG TÓM TẮT VĂN BẢN.""",
+e_029,"Những công cụ data mining có thể phát hiện những xu hướng trong tương lai, các tri thức mà data mining mang lại cho các doanh nghiệp có thể ra các quyết định kịp thời và trả lời những câu hỏi trong lĩnh vực kinh doanh mà trước đây tốn nhiều thời gian để xử lý.","QUY, HỆ CHÍNH. ""ĐỘ TƯƠNG ĐỒNG NGỮ NGHĨA GIỮA HAI CÂU VÀ ỨNG DỤNG TRONG TÓM TẮT VĂN BẢN.""",
+e_030,"Hầu hết các thông tin trong chính phủ, công nghiệp, thương mại và các viện nghiên cứu đều được lưu trữ ở dạng điện tử, theo kiểu cơ sở dữ liệu văn bản. Số lượng tài liệu điện tử này phát triển với tốc độ chóng mặt gây cho con người những khó khăn trong việc tiếp nhận nội dung chính của chúng.
+Các kỹ thuật tìm kiếm thông tin truyền thống trở nên không tương xứng với lượng dữ liệu văn bản ngày càng lớn. Người dùng không biết bên trong tài liệu chứa gì, thật khó để đưa ra câu truy vấn hiệu quả cho việc phân tích và trích rút các thông tin có ích từ dữ liệu. Người sử dụng cần các công cụ so sánh các tài liệu khác nhau, xếp hạng độ quan trọng và độ liên quan của các tài liệu, hoặc tìm các mẫu và các xu hướng qua nhiều tài liệu. Do đó, việc tính độ tương đồng trong văn bản, độ tương đồng giữa các văn bản, tóm tắt văn bản ... trở nên ngày càng phổ biến và là nội dung cần thiết trong khai phá text","QUY, HỆ CHÍNH. ""ĐỘ TƯƠNG ĐỒNG NGỮ NGHĨA GIỮA HAI CÂU VÀ ỨNG DỤNG TRONG TÓM TẮT VĂN BẢN.""",
+e_031,,,
+e_032,,,
+e_033,,,
+e_034,,,
+e_035,,,
+e_036,,,
+e_037,,,
+e_038,,,
+e_039,,,
+e_040,,,
+e_041,,,
+e_042,,,
+e_043,,,
+e_044,,,
+e_045,,,
+e_046,,,
+e_047,,,
+e_048,,,
+e_049,,,
+e_050,,,
+e_051,,,
+e_052,,,
+e_053,,,
+e_054,,,
+e_055,,,
+e_056,,,
+e_057,,,
+e_058,,,
+e_059,,,
+e_060,,,
+e_061,,,
+e_062,,,
+e_063,,,
+e_064,,,
+e_065,,,
+e_066,,,
+e_067,,,
+e_068,,,
+e_069,,,
+e_070,,,
+e_071,,,
+e_072,,,
+e_073,,,
+e_074,,,
+e_075,,,
+e_076,,,
+e_077,,,
+e_078,,,
+e_079,,,
+e_080,,,
+e_081,,,
+e_082,,,
+e_083,,,
+e_084,,,
+e_085,,,
+e_086,,,
+e_087,,,
+e_088,,,
+e_089,,,
+e_090,,,
+e_091,,,
+e_092,,,
+e_093,,,
+e_094,,,
+e_095,,,
+e_096,,,
+e_097,,,
+e_098,,,
+e_099,,,
+e_100,,,

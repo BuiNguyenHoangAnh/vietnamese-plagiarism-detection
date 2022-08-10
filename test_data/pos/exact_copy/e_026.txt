@@ -1,0 +1,1 @@
+Với đặc thù của Tiếng Việt là ngôn ngữ đa âm tiết, trong bài báo này chúng tôi đã giới thiệu phương pháp trích rút từ khóa từ văn bản Tiếng Việt và sự thành công khi áp dụng phương pháp này trong việc tìm kiếm tập tài liệu ứng cử làm tiền đề để giải quyết bài toán phát hiện đạo văn.

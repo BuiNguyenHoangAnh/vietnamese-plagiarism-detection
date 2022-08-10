@@ -1,0 +1,1 @@
+Tiền xử lý là bước quan trọng đối với các hệ thống tìm kiếm. Tệp tin đầu vào có dạng .pdf, .doc hoặc .docx, đọc nội dung và loại bỏ các ký tự đặc biệt (như các ký tự điều khiển, ký tự xuống dòng) và thực hiện tách câu, tách từ và gán nhãn từ loại.

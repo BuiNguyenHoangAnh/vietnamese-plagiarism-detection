@@ -1,0 +1,1 @@
+Một giải pháp được sử dụng là áp dụng các thuật toán phân lớp vào chatbot để giảm việc phân loại quá nhiều các câu hỏi. Các câu hỏi sẽ được phân lớp theo các điều kiện khác nhau và tạo ra một cấu trúc dễ quản lý hơn, tăng độ chính xác cho các phản hồi được chatbot tới cho người dùng.

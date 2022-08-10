@@ -1,0 +1,1 @@
+ở VN chúng ta việc ứng dụng của công nghệ nhận dạng khuôn mặt vào thực tế còn hạn chế. Mục tiêu của luận văn này là tìm hiểu một số phương pháp nhận diện khuôn mặt và ứng dụng vào thực tế cho phù hợp với thực tế nước nhà.

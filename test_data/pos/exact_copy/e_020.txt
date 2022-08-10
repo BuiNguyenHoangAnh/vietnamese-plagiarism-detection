@@ -1,0 +1,1 @@
+Quá trình duyệt dữ liệu thủ công này sẽ kiểm tra từng đơn vị dữ liệu liên quan đến bài báo, và tiến hành chỉnh sửa ngay khi xuất hiện các thông tin sai, trùng lặp, hoặc loại bỏ nếu bài không phù hợp với tiêu chí của Scimath.

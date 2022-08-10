@@ -1,0 +1,1 @@
+Kỹ thuật tăng giảm độ sáng: Quá trình tăng giảm độ sáng của dữ liệu ảnh sẽ cho phép mô hình có khả năng dự đoán tốt với những điều kiện ánh sáng khác nhau trong thực tế. Tuy nhiên việc tăng giảm độ sáng cũng cần phải lưu ý với những giá trị hợp lý, tránh giảm ảnh quá tối hoặc quá sáng khiến mô hình phải học những dữ liệu không tốt.
