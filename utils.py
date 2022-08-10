@@ -1,6 +1,15 @@
 #import thư viện
 import re
+import io
+
 from docx import *
+
+from pdfminer.pdfinterp import PDFResourceManager
+from pdfminer.layout import LAParams
+from pdfminer.converter import TextConverter
+from pdfminer.pdfinterp import PDFPageInterpreter
+from pdfminer.pdfpage import PDFPage
+
 from vws import RDRSegmenter, Tokenizer # https://github.com/Sudo-VP/Vietnamese-Word-Segmentation-Python
 
 # khia báo hằng
@@ -17,13 +26,26 @@ def read_txt_files(path):
     f.close()
     return document
 
-# đọc từ file word - TO DO
+# đọc từ file word
 def read_doc_files(path):
-    document = Document('pos1.docx')
+    document = Document(path)
     text = []
     for docpara in document.paragraphs:
         text.append(docpara.text)
     return text[0]
+
+# đọc từ file pdf
+def read_pdf_files(path):
+    with open(path, 'rb') as fp:
+        rsrcmgr = PDFResourceManager()
+        outfp = io.StringIO()
+        laparams = LAParams()
+        device = TextConverter(rsrcmgr, outfp, laparams=laparams)
+        interpreter = PDFPageInterpreter(rsrcmgr, device)
+        for page in PDFPage.get_pages(fp):
+            interpreter.process_page(page)
+    text = outfp.getvalue()
+    return text
 
 ##############
 # TIỀN XỬ LÝ #
