@@ -9,7 +9,8 @@ TESTDATA_PATH = "pos2.txt"
 n = 4 # set ngram number
 # plagiarism threshold
 threshold_ngram = 0.5
-threshold_lcs_cs = 0.25
+threshold_lcs_cs = 0.5
+threshold_fuzzy = 0.5
 
 # tiền xử lý
 train_data = read_txt_files(TRAINDATA_PATH)
